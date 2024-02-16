@@ -19,11 +19,11 @@ const questions = [
   },
 
   {
-    type: "input",
+    type: "confirm",
     name: "tableOfContents",
-    message: "Please provide a table of contents for your project.",
+    message: "Would you like to include a table of contents for your project?",
     default:
-      "## Table of Contents\n- [Description](#description)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contribution](#contribution)\n- [Test](#test)\n- [License](#license)\n- [Questions](#questions)",
+      "## Table of Contents\n- [Description](#description)\n- [Installation](#installation)\n- [Usage](#usage)\n- [License](#license)\n- [Contribution](#contribution)\n- [Test](#test)\n- [Questions](#questions)",
   },
 
   {
@@ -59,16 +59,18 @@ const questions = [
 
   {
     type: "input",
-    name: "email",
+    name: "questions",
     message: "Please provide your email address.",
   },
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+}
 
 // function to initialize program
-function init() {}
+function init() {
+}
 
 // function call to initialize program
 init();
