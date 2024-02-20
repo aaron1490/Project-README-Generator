@@ -10,7 +10,7 @@ function generateMarkdown(data) {
 - [License](#license)
 - [Contribution](#contribution)
 - [Test](#test)
-- [Get In Touch](#Get-In-Touch)
+- [Get In Touch](#get-in-touch)
 `;
   }
 
@@ -23,7 +23,7 @@ function generateMarkdown(data) {
       case "Apache":
           badge = "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)";
           break;
-      case "GNU":
+      case "GPL":
           badge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
           break;
       default:
