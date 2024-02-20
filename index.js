@@ -22,8 +22,7 @@ const questions = [
     type: "confirm",
     name: "tableOfContents",
     message: "Would you like to include a table of contents for your project?",
-    default:
-      "## Table of Contents\n- [Description](#description)\n- [Installation](#installation)\n- [Usage](#usage)\n- [License](#license)\n- [Contribution](#contribution)\n- [Test](#test)\n- [Questions](#questions)",
+    default: true  
   },
 
   {
@@ -66,10 +65,14 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 // function to initialize program
 function init() {
+  inquirer.prompt(questions).then ((data) => {
+    writeToFile("./testing-folder/README-TEST.md", generateMarkdown(data)); // Writesthe newly generated readme file to the testing-folder
+  })
 }
 
 // function call to initialize program
