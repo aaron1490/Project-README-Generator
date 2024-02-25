@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [Description](#description)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -14,6 +15,13 @@
 
 ## Description
 This is a simple, good quality README Generator for all future projects. Created using JavaScript and Nodejs. This is run at the command line, prompting the user to answer a series of questions generating a README file in markdown format.
+
+## Demo
+See below a brief demo of the application:
+
+VIDEO TO BE ADDED VIA GITHUB md editor
+
+The view the [full resolution video](https://drive.google.com/file/d/1TNtqqmc5od-nRLrNZfw2DXRk2Zdi5Zhg/view), please view from this link.
 
 ## Installation
 1.) Ensure that you have dependencies such as [node.js](https://nodejs.org/en/download/) already installed.<br> 2.) Clone the code [repository](https://github.com/aaron1490/Project-README-Generator) to your local machine.<br> 3.) Navigate to the root of the project folder that you've just cloned.<br> 4.) Run ```npm i``` either on git bash or on the integrated terminal to install all required node modules required.
