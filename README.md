@@ -30,7 +30,7 @@ This project is licensed under the MIT license. Click the below badge for furthe
 N/A
 
 ## Test
-N/A
+As part of testing and making sure the application runs correctly, I have pathed the generated README files to be generated within the testing-folder rather than the root. Once you are happy with the README file, feel free to move it to the root. This is done so that it doesn't overwrite an already existing README file in the root of the project folder.
 
 ## Get In Touch
 For any questions relating to the project, please feel free to get in touch with me via email at: [aaronarmstrong1490@gmail.com](mailto:aaronarmstrong1490@gmail.com)

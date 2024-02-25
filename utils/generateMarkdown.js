@@ -54,7 +54,7 @@ ${badge}
 ${data.contribution}
 
 ## Test
-${data.test}
+${data.tests}
 
 ## Get In Touch
 For any questions relating to the project, please feel free to get in touch with me via email at: [${data.questions}](mailto:${data.questions})
